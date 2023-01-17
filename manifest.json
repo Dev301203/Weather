@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Weather Extension",
+    "version": "1.0",
+    "description": "Displays the current weather for your location",
+    "permissions": ["geolocation"],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
